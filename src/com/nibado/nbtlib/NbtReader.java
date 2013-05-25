@@ -56,11 +56,11 @@ public class NbtReader
 			if(type != Tag.TYPE_END)
 			{
 				name = dataIn.readUTF();
-				System.out.println("Tag:{" + Tag.NAMES[type] + ":'" + name + "'}");
+				//System.out.println("Tag:{" + Tag.NAMES[type] + ":'" + name + "'}");
 			}
 			else
 			{
-				System.out.println("Tag:{" + Tag.NAMES[type] + "}");
+				//System.out.println("Tag:{" + Tag.NAMES[type] + "}");
 				break;
 			}
 			
